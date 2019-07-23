@@ -1,0 +1,23 @@
+You need to have the below pre-requisites installed for the program to work: (Ubuntu tested and will add other Distributions later)
+
+Ubuntu and Ubuntu based distributions:
+
+Python 3:
+    Check that you have Python 3 installed by opening a terminal and entering and running: Python3
+    You should now be in Python. Ctrl +  D to exit out of Python.
+    In a terminal type and run: python --version     This should show version 3.x.x
+    If you do not have Python 3 installed you can install it following my post: http://exchangetimes.net/?p=496
+
+Pip:
+    From a terminal run: pip3 --version     You should see something like this: pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
+    If not install pip3: https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
+
+Install rtsp from PyPi:
+    Download rtsp-1.1.6-py3-none-any.whl from https://pypi.org/project/rtsp/#files
+    In the terminal browse to the folder you downloaded the file.
+    Run: pip3 install ./rtsp-1.1.6-py3-none-any.whl
+                            or
+    Run: pip3 install ./rtsp-1.1.6.tar.gz       If you downloaded the tarball
+
+
+
