@@ -15,4 +15,3 @@ I had to install pip3 to install the python rtsp library.
 Had issues with the RTSP URL as the URL that works using VLC gave me 401 authentication issues
  when trying to access it from ezvizviewer.py
  
- 
